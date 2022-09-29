@@ -1,0 +1,139 @@
+*{
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    margin: 0p;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+.wrapper{
+    width: 1100px;
+    margin: auto;
+    position: sticky;
+
+}
+.logo a {
+    font-size: 50px;
+    align-items: center;
+    font-weight: 800px;
+    float: left;
+    font-family:'Courier New', Courier, monospace;
+    color: #33755a;
+}
+.menu{
+    float: right;
+
+}
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: static;
+    position: -webkit-sticky;
+    top: 0;
+    background-color:#8EBBA7; 
+}
+nav ul {
+    list-style-type: none;
+    margin: 10px;
+    cursor: pointer;
+}
+nav ul li {
+    float: left;
+}
+nav ul li a {
+    color:#33755a ;
+    font-weight: unset;
+    text-align: center;
+    padding: 15px 10px 15px 10px;
+    text-decoration: none;
+}
+nav ul li a :hover {
+    text-decoration: underline;
+}
+.home {
+  position: absolute;
+  top: 50px;
+
+
+    
+}
+.home img {
+    width: 210ox;
+    height: 210px;
+    float: left;
+    border-radius: 20px;
+    background-color: #33755a; 
+}
+.tagline {
+    position: absolute;
+    text-align: left;
+    top: 70px;
+    right: 10px;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 50px;
+    color: #33755a;
+    line-height: 30px;
+}
+.tagline a {
+    text-align: right;
+    font-size: 18px;
+}
+.form {
+    width:500px;
+    margin: 10px auto;
+    
+}
+.button {
+    position:relative;
+    padding:6px 15px;
+    left:-8px;
+    border:2px solid #8EBBA7;
+    background-color:#8EBBA7;
+    color:#33755a;
+    border-radius: 20px;
+}
+.button:hover  {
+    background-color:#fafafa;
+    color:#33755a;
+}
+footer {
+    position: fixed;
+    height: 70px;
+    line-height: 50px;
+    background:#8EBBA7;
+    color: #33755a;
+    position: absolute;
+    bottom: -20px;
+    width: 100%;
+    text-align: center;
+    font-family: optional;
+    margin-bottom: 20px;
+}
+.bingkai{
+    border: 3px solid;
+    border-radius: 20px;
+    height: 300px ;
+    color: #33755a;
+    margin: 60px;
+
+   
+
+}
+.class1 {
+    text-align: right;
+    line-height: 20px;
+
+    
+}
+.foto{
+    width: 210ox;
+    height: 210px;
+    float: left;
+    border-radius: 20px;
+    background-color: #33755a; 
+}
